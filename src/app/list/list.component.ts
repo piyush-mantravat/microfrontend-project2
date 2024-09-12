@@ -15,4 +15,7 @@ export class ListComponent implements OnInit{
     console.log('Component initialized');
     // Add your initialization logic here
   }
+  getComponentData(): string {
+    return 'Expose Data From Project1 to Project2';
+  }
 }
